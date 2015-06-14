@@ -157,6 +157,7 @@ if __name__ == "__main__":
     zabbix_password = args['zabbix_password']
     region = args['region']
     zabbix_web_master=args['zabbix_web_master']
+	
 
     main(zabbix_server, zabbix_user, zabbix_password, region, zabbix_web_master)
 
